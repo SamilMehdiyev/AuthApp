@@ -1,11 +1,12 @@
+
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
     container: { 
-        width: 275, 
+        width: 250, 
         height: 50,
         borderRadius: 25,
-        backgroundColor: '#f2767b',
+        backgroundColor: '#F9A220',
         marginTop: 20
     },
     view: {
@@ -15,14 +16,14 @@ export const styles = StyleSheet.create({
         alignItems: 'center'
     },
     iconView: {
-        paddingHorizontal: 15
+        paddingHorizontal: 20
     },
     icon: { 
         height: 50, 
         width: 50 
     },
     text: {
-        fontSize: 18,
+        fontSize: 24,
         color: '#ffffff',
         textAlign: 'center'
     }

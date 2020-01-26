@@ -1,6 +1,5 @@
 import React from 'react';
 import { TouchableOpacity, View, Text } from 'react-native';
-import PropTypes from 'prop-types';
 import { GoogleSignin } from '@react-native-community/google-signin';
 import auth from '@react-native-firebase/auth';
 
@@ -50,10 +49,4 @@ export const GoogleSignIn = () => {
             </View>
         </TouchableOpacity>
     );
-};
-
-GoogleSignIn.propTypes = {
-    isSigninInProgress: PropTypes.bool.isRequired,
-    changeProgressStatus: PropTypes.func.isRequired,
-    setUserToProps: PropTypes.func.isRequired
 };
